@@ -1,0 +1,28 @@
+# Project: migong
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = migong_game.o
+LINKOBJ  = migong_game.o
+LIBS     = -L"F:/Software/Dev-Cpp/MinGW64/lib" -L"F:/Software/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -lwinmm -g3
+INCS     = -I"F:/Software/Dev-Cpp/MinGW64/include" -I"F:/Software/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"F:/Software/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"F:/Software/Dev-Cpp/MinGW64/include" -I"F:/Software/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"F:/Software/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"F:/Software/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = migong.exe
+CXXFLAGS = $(CXXINCS) -g3 -lwsock32
+CFLAGS   = $(INCS) -g3 -lwsock32
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+migong_game.o: migong_game.cpp
+	$(CPP) -c migong_game.cpp -o migong_game.o $(CXXFLAGS)
