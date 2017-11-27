@@ -28,9 +28,10 @@
 	} 
 
 ## 4.下载example
-[]()https://github.com/Cendeal/migong/blob/project/migong.exe
+[下载](https://github.com/Cendeal/migong/blob/project/migong.exe)
 
-图示：
-![]()https://github.com/Cendeal/migong/blob/project/res/migong.gif
+图示:
+
+![pic](https://github.com/Cendeal/migong/blob/project/res/migong.gif)
 ## 5.文件说明
 
