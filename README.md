@@ -28,10 +28,13 @@
 	} 
 
 ## 4.下载example
-[下载](https://github.com/Cendeal/migong/blob/project/migong.exe)
+[下载](https://raw.githubusercontent.com/Cendeal/migong/project/migong.exe)
 
 图示:
 
 ![pic](https://github.com/Cendeal/migong/blob/project/res/migong.gif)
 ## 5.文件说明
-
+| 文件夹        | 说明          |  
+| ------------- |:-------------:| 
+| project    | 源代码| 
+| map     | 地图文件      |  
