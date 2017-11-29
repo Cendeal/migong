@@ -27,7 +27,7 @@
 	} 
 
 ## 4.下载example
-[下载](https://raw.githubusercontent.com/Cendeal/migong/project/migong.exe)
+[下载](https://raw.githubusercontent.com/Cendeal/migong/project/migong.7z)
 
 图示:
 
