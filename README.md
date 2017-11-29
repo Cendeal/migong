@@ -29,6 +29,8 @@
 ## 4.下载example
 [下载](https://raw.githubusercontent.com/Cendeal/migong/project/migong.7z)
 
+[项目地址](https://github.com/Cendeal/migong)
+
 图示:
 
 ![pic](https://github.com/Cendeal/migong/blob/project/res/migong.gif)
